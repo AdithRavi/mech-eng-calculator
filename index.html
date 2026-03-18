@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MechCalc Pro | Engineering Suite</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">MECH<span>CALC</span></div>
+            <nav>
+                <button class="tab-btn active" onclick="showModule('thermo')">Thermodynamics</button>
+                <button class="tab-btn" onclick="showModule('solids')">Mechanics of Solids</button>
+                <button class="tab-btn" onclick="showModule('fluids')">Fluid Mechanics</button>
+            </nav>
+            <div class="sidebar-footer">
+                <p>v1.0 | Adith Ravi</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <section id="thermo" class="module active">
+                <h2>Ideal Gas Law Solver</h2>
+                <p class="description">Calculate pressure, volume, or temperature using $PV = nRT$.</p>
+                <div class="input-grid">
+                    <div class="input-group">
+                        <label>Pressure (P) in kPa</label>
+                        <input type="number" id="p_val" placeholder="101.3">
+                    </div>
+                    <div class="input-group">
+                        <label>Volume (V) in m³</label>
+                        <input type="number" id="v_val" placeholder="0.5">
+                    </div>
+                    <div class="input-group">
+                        <label>Temperature (T) in K</label>
+                        <input type="number" id="t_val" placeholder="300">
+                    </div>
+                </div>
+                <button class="calc-btn" onclick="calcIdealGas()">Calculate Missing Value</button>
+                <div id="thermo-result" class="result-box">Result will appear here...</div>
+            </section>
+
+            <section id="solids" class="module">
+                <h2>Stress & Strain Analysis</h2>
+                <p class="description">Calculate Normal Stress using $\sigma = F / A$.</p>
+                <div class="input-grid">
+                    <div class="input-group">
+                        <label>Force (F) in Newtons</label>
+                        <input type="number" id="force" placeholder="5000">
+                    </div>
+                    <div class="input-group">
+                        <label>Area (A) in mm²</label>
+                        <input type="number" id="area" placeholder="25">
+                    </div>
+                </div>
+                <button class="calc-btn" onclick="calcStress()">Compute Stress</button>
+                <div id="solids-result" class="result-box">Result will appear here...</div>
+            </section>
+
+            <section id="fluids" class="module">
+                <h2>Reynolds Number</h2>
+                <p class="description">Determine flow regime (Laminar vs Turbulent).</p>
+                <p>Module coming soon in Phase 2 update.</p>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
