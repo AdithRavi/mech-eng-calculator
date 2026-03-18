@@ -23,7 +23,12 @@ I've focused on the areas where I personally needed the most help with precision
 - [ ] Create a "Dark Mode" for those late-night library sessions.
 
 ## 🔧 Try it out
-If you want to use this for your own labs, just clone the repo and open `index.html`. No heavy software like MATLAB or SolidWorks required.
+If you want to use this for your own labs, just clone the repo and open `index.html`. No heavy software like MATLAB or SolidWorks require
 
----
-**Adith Ravi** *Mechanical Engineering @ GEC Barton Hill* [My Portfolio](https://adithravii.github.io) | [Connect on LinkedIn](https://www.linkedin.com/in/adithravi)
+### 🤝 Let's Connect
+I'm always open to discussing mechanical design, UX, or potential internship opportunities.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0066ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adithravii.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adithravi)
+
+**Adith Ravi** *Mechanical Engineering Student @ GEC Barton Hill*
