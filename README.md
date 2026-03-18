@@ -29,6 +29,6 @@ If you want to use this for your own labs, just clone the repo and open `index.h
 I'm always open to discussing mechanical design, UX, or potential internship opportunities.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0066ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adithravii.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adithravi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adith-ravi-7a352633a?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 **Adith Ravi** *Mechanical Engineering Student @ GEC Barton Hill*
